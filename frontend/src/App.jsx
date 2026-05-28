@@ -22,7 +22,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://ai-resume-analyzer-backend.onrender.com/analyze",
+        "https://ai-resume-analyzer-backend-aygp.onrender.com",
         formData
       );
 
